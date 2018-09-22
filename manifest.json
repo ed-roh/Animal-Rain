@@ -1,0 +1,25 @@
+{
+  "name": "Make It Rain",
+  "description": "Send money flying all over your screen",
+  "author": "Madeline Rae Horowitz",
+  "version": "0.0.0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Make It Rain",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "19": "images/icon_xs.png",
+      "38": "images/icon_small.png"
+    }
+  },
+  "web_accessible_resources": [
+    "images/*.png"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}

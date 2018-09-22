@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="title">
+          <h2>Animal Rain</h2>
+        </div>
+        
+        <div id="radioCheck">
+          <div class="selection">
+            <img class="image25" src="images/cat25.png">
+            <input type="radio" name="animal" value="b" checked>Cat<br>
+          </div>
+
+          <div class="selection">
+            <img class="image25" src="images/dog25.png">
+            <input type="radio" name="animal" value="c">Dog<br>
+          </div>
+
+          <div class="selection">
+            <img class="image25" src="images/paul25.png">
+            <input class="paul" type="radio" name="animal" value="d">Paul<br>
+          </div>
+        </div>
+
+        <div id="slidecontainer">
+          <p class="sliderTitle"># of Animals</p>
+          <input type="range" min="25" max="500" value="50" id="inputNumber" class="slider">
+          <div id="slideValues">
+            <div id="min">25</div>
+            <div id="max">500</div>
+          </div>
+        </div>
+
+        <div id="slidecontainer">
+          <p class="sliderTitle">Speed</p>
+          <input type="range" min="1" max="10" value="3" id="inputSpeed" class="slider">
+          <div id="slideValues">
+            <div id="min">1</div>
+            <div id="max">10</div>
+          </div>
+        </div>
+
+        <div id="audioToggle">
+          <div class="audioTitle">Audio on or off?</div>
+          <input type="checkbox" id="audioCheck" name="yes" value="val" checked>Yes<br>
+        </div>
+        
+        <button type="submit" id="submitButton" >Make it Rain!</button>
+      </div>
+
+      <script src="popup.js"></script>
+    </body>
+  </html>
+
+
+  

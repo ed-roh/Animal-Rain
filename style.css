@@ -1,0 +1,111 @@
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: rgb(37, 0, 139);
+}
+
+.title {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.rain {
+  z-index: 20000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+}
+
+.selection {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.image25 {
+  margin-right: 8px;
+}
+
+.sliderTitle {
+  font-size: 10px;
+}
+
+#slidecontainer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 13px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+  border-radius: 25px;
+
+}
+
+#slideValues {
+  display: flex;
+  justify-content: space-between;
+}
+
+#submitButton {
+  margin: 5px auto 5px auto;
+  padding: 5px;
+  background-color: #4CAF50;
+  color: white;
+  -webkit-transition: color .5s, background-color .5s;
+     -moz-transition: color .5s, background-color .5s;
+      -ms-transition: color .5s, background-color .5s;
+          transition: color .5s, background-color .5s;
+}
+
+#submitButton:hover {
+  background-color: rgb(144, 238, 147);
+  color: rgb(4, 63, 131);
+  cursor: pointer;
+}
+
+.audioToggle {
+  display: flex;
+  justify-content: left;
+  
+}
+
+.audioTitle {
+  font-size: 10px;
+}
